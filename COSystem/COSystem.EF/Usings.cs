@@ -1,0 +1,12 @@
+﻿global using System.Linq.Expressions;
+global using COSystem.Core.Services;
+global using COSystem.EF.Data;
+global using Microsoft.EntityFrameworkCore;
+global using COSystem.Core;
+global using COSystem.Core.Models;
+global using COSystem.Core.DTOs;
+global using COSystem.EF.Repositories;
+global using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+global using Microsoft.EntityFrameworkCore.ChangeTracking;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using COSystem.EF.Conversion;

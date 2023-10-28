@@ -1,0 +1,17 @@
+C:\Users\ASUS\Desktop\COSystem\COSystem\COSystem.EF\bin\Debug\net7.0\COSystem.EF.deps.json
+C:\Users\ASUS\Desktop\COSystem\COSystem\COSystem.EF\bin\Debug\net7.0\COSystem.EF.runtimeconfig.json
+C:\Users\ASUS\Desktop\COSystem\COSystem\COSystem.EF\bin\Debug\net7.0\COSystem.EF.dll
+C:\Users\ASUS\Desktop\COSystem\COSystem\COSystem.EF\bin\Debug\net7.0\COSystem.EF.pdb
+C:\Users\ASUS\Desktop\COSystem\COSystem\COSystem.EF\bin\Debug\net7.0\COSystem.Core.dll
+C:\Users\ASUS\Desktop\COSystem\COSystem\COSystem.EF\bin\Debug\net7.0\COSystem.Core.pdb
+C:\Users\ASUS\Desktop\COSystem\COSystem\COSystem.EF\obj\Debug\net7.0\COSystem.EF.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\COSystem\COSystem\COSystem.EF\obj\Debug\net7.0\COSystem.EF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\COSystem\COSystem\COSystem.EF\obj\Debug\net7.0\COSystem.EF.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\COSystem\COSystem\COSystem.EF\obj\Debug\net7.0\COSystem.EF.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\COSystem\COSystem\COSystem.EF\obj\Debug\net7.0\COSystem.EF.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\COSystem\COSystem\COSystem.EF\obj\Debug\net7.0\COSystem.EF.csproj.CopyComplete
+C:\Users\ASUS\Desktop\COSystem\COSystem\COSystem.EF\obj\Debug\net7.0\COSystem.EF.dll
+C:\Users\ASUS\Desktop\COSystem\COSystem\COSystem.EF\obj\Debug\net7.0\refint\COSystem.EF.dll
+C:\Users\ASUS\Desktop\COSystem\COSystem\COSystem.EF\obj\Debug\net7.0\COSystem.EF.pdb
+C:\Users\ASUS\Desktop\COSystem\COSystem\COSystem.EF\obj\Debug\net7.0\COSystem.EF.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\COSystem\COSystem\COSystem.EF\obj\Debug\net7.0\ref\COSystem.EF.dll

@@ -1,0 +1,9 @@
+﻿global using COSystem.EF.Data;
+global using COSystem.Core.Models;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.EntityFrameworkCore;
+global using COSystem.Core.DTOs;
+global using COSystem.Core;
+global using Football.EF;
+global using AutoMapper;

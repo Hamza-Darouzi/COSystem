@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jKejqJjT2Kan8kXmRjUELU+CmlDwbIk4VugaVNkEILRqEdWjm21+ULge/okYS7FP4eZxwMP7gU0Li6xHpS/9iw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\COSystem\\COSystem\\COSystem.Core\\COSystem.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

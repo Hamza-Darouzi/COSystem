@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>COSystem.EF</name>
+    </assembly>
+    <members>
+        <member name="T:COSystem.EF.Migrations.Initial">
+            <inheritdoc />
+        </member>
+        <member name="M:COSystem.EF.Migrations.Initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:COSystem.EF.Migrations.Initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:COSystem.EF.Migrations.Initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:COSystem.EF.Repositories.BaseRepository`1.#ctor(COSystem.EF.Data.AppDbContext)">
+            <summary>
+            To Inject in Unit Of Work
+            </summary>
+        </member>
+        <member name="M:COSystem.EF.Repositories.BaseRepository`1.Create(`0)">
+            <summary>
+            This method <c>Initialize</c> the entity
+            </summary>
+            <param name="entity">the object that will be initialized</param>
+            <returns>A Task that represent adding to DbContext operation</returns>
+        </member>
+        <member name="M:COSystem.EF.Repositories.BaseRepository`1.Delete(`0)">
+            <summary>
+            This method <c>Delete</c> the entity
+            </summary>
+            <param name="entity">the object that will be deleted</param>
+            <returns>A Task that represent deleteing from DbContext operation</returns>
+        </member>
+        <member name="M:COSystem.EF.Repositories.BaseRepository`1.Update(`0)">
+            <summary>
+            This method <c>Update</c> the entity
+            </summary>
+            <param name="entity">the object that will be Updated</param>
+            <returns>A Task that represent Update <typeparamref name="T"/> on DbContext operation</returns>
+        </member>
+        <member name="M:COSystem.EF.Repositories.BaseRepository`1.FindAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+                This method <c>Searching</c> in DbContext for the entity that fulfill <paramref name="match"/> boolean expression
+            </summary>
+            <param name="match">boolean expression that will searching depends on</param>
+            <returns>A Task that represent searching in DbContext , Task result is object of type <typeparamref name="T"/> </returns>
+            <exception cref="T:System.NullReferenceException">Thrown when DbContext does not have any entity that fulfill <paramref name="match"/>expression</exception>
+        </member>
+        <member name="M:COSystem.EF.Repositories.BaseRepository`1.FindAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.String[])">
+            <summary>
+              This method <c>Searching</c> in DbContext for the entity that fulfill <paramref name="match"/> boolean expression
+              and Implement Include() Method in Linq to retreive Navigation Properties
+            </summary>
+            <param name="match">boolean expression that will searching depends on</param>
+            <param name="includes">Navigation Properties</param>
+            <returns>A Task that represent searching in DbContext , Task result is object of type <typeparamref name="T"/> with it's Navigation Properties </returns>
+            <exception cref="T:System.NullReferenceException">Thrown when DbContext does not have any entity that fulfill <paramref name="match"/>expression</exception>
+        </member>
+        <member name="M:COSystem.EF.Repositories.BaseRepository`1.FindAllAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.String[])">
+            <summary>
+              This method <c>Searching</c> in DbContext for the entities that fulfill <paramref name="match"/> boolean expression
+              and Implement Include() Method in Linq to retreive Navigation Properties
+            </summary>
+            <param name="match">boolean expression that will searching depends on</param>
+            <param name="includes">Navigation Properties</param>
+            <returns>A Task that represent searching in DbContext , Task result is ICollection of type <typeparamref name="T"/> with there Navigation Properties </returns>
+        </member>
+        <member name="M:COSystem.EF.Repositories.BaseRepository`1.GetAllAsync(System.String[])">
+            <summary>
+              This method <c>Retreive</c> from DbContext all the entities
+              and Implement Include() Method in Linq to retreive Navigation Properties
+            </summary>
+            <param name="includes">Navigation Properties</param>
+            <returns>A Task that represent retreiving from DbContext , Task result is ICollection of type <typeparamref name="T"/> with there Navigation Properties </returns>
+        </member>
+        <member name="M:COSystem.EF.Repositories.BaseRepository`1.GetAllAsync">
+            <summary>
+              This method <c>Retreive</c> from DbContext all the entities
+            </summary>
+            <returns>A Task that represent retreiving from DbContext , Task result is ICollection of type <typeparamref name="T"/></returns>
+        </member>
+        <member name="M:COSystem.EF.Repositories.BaseRepository`1.GetAllOrdered(System.Func{`0,System.String})">
+            <summary>
+              This method <c>Retreive</c> from DbContext all the entities ordered depending on <paramref name="match"/> delegate
+            </summary>
+            <param name="match">a delegate that will ordering depends on </param>
+            <returns>A Task that represent retreiving from DbContext , Task result is ICollection of type <typeparamref name="T"/> orderd depends on <paramref name="match"/> delegate </returns>
+        </member>
+    </members>
+</doc>
